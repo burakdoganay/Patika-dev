@@ -1,0 +1,13 @@
+.text-yellow {
+    color: rgb(105, 105, 11);
+}
+h2 {
+    color:rgb(167, 72, 167);
+}
+.text-blue {
+    color: rgb(53, 155, 168);
+}
+.inside {
+    list-style-position: inside;
+}
+

@@ -1,4 +1,7 @@
+ul {list-style: none;} /* ul liste noktaları kaldırıldı */
+
 .header {
+
     list-style-type: none;
     margin: 10px;
     overflow: hidden;
@@ -13,6 +16,7 @@
     text-align: center;
     padding: 5px 5px;
     text-decoration: none;
+    
 }
 
 .headerli a:hover {
@@ -44,8 +48,9 @@
 .search {
     flex: 1;
     display: flex;
-    padding: 5px 9px 0 16px;
-    padding-left: -5px;
+    padding: 5px 8px 0 16px;
+    padding-left: 14px;
+    
 
 }
 
@@ -54,17 +59,23 @@
     align-items: center;
     padding-right: 13px;
     margin-top: -5px;
+    
+    
+   
+    
 }
 
 .search-img span {
     color: #9aa0a6;
     height: 20px;
     width: 20px;
-    margin-top: 0px;
+    margin-top: 6px;
     display: inline-block;
     fill: currentColor;
     line-height: 24px;
     position: relative;
+    
+    
 }
 
 .input-enter {
@@ -104,6 +115,8 @@
     text-align: start;
     appearance: textfield;
     cursor: text;
+    width: 480px; /* genişlik 480px yapıldı */
+    border: none; /* kenarlıklar kaldırıldı */
 }
 
 .googlesearch {
@@ -114,6 +127,14 @@
     text-align: center;
     cursor: pointer;
     user-select: none;
+    border: 1px solid #f2f2f2;
+    margin-right: 15px;
+    color: #5f6368;
+    font-size: 14px;
+    height: 36px;
+    border-radius: 4px; /* butonların kenarları oval yapıldı */
+    
+
 }
 .googlesearch:hover {
     box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
@@ -126,6 +147,13 @@
     text-align: center;
     cursor: pointer;
     user-select: none;
+    border: 1px solid #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #5f6368;
+    font-size: 14px;
+    height: 36px;
+    border-radius: 4px;
+    
 }
 .feelinglucky:hover {
     box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
@@ -142,10 +170,12 @@
     width: 100%;
     margin-left: -8px;
     line-height: 10px;
+    background-color: #f2f2f2; /* renk verildi  */
 }
 
 .footerli {
     float: left;
+    white-space: nowrap; /*  alt satıra inme kapatıldı */
 }
 
 .footerli a {
@@ -187,6 +217,6 @@ nav li a{
 }
 
 .buttons{
-    text-align: center;
-    margin-top: 15px;
+    text-align: center; /* center; butonlar ortalandı */
+    margin-top: 15px; /* üstten boşluk bırakıldı */
 }

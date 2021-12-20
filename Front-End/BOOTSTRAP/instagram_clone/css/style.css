@@ -13,7 +13,11 @@ body{
   color: gray;
   background-position: 40%;
   background-size: 6%;
+  background-image: url(/assets/search-solid.svg);
+  background-repeat: no-repeat;
+  background-position-x: 62px;
 }
+
 
 input.empty {
     font-family: FontAwesome;
@@ -52,4 +56,8 @@ input.empty {
 .rightpanellinks:hover {
   text-decoration: none;
   color: lightgrey;
+}
+
+.middlearea{
+  max-height: 200px !important;
 }

@@ -58,6 +58,10 @@ input.empty {
   color: lightgrey;
 }
 
+.span-right {
+  float: right;
+}
+
 .middlearea{
   max-height: 200px !important;
 }

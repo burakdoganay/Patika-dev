@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Linkedin</title>
-    <link rel="stylesheet" href="/bootstraplinkedinclone/css/style.css" />
+    <link rel="stylesheet" href="/css/style.css" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
@@ -20,8 +20,8 @@
   </head>
   <body class="body">
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light navbarbg">
-      <a class="navbar-brand" href="#"
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light navbarbg border">
+      <a class="navbar-brand offset-1" href="#"
         ><i
           class="fab fa-linkedin fa-lg ml-5"
           style="color: #0a66c2; font-size: 2.4rem"
@@ -36,7 +36,7 @@
         aria-expanded="false"
         aria-label="Toggle navigation"
       ></button>
-      <form class="form-inline">
+      <form class="form-inline"style="padding-right: 90px;" >
         <input
           class="form-control searche ml-3 mr-5"
           type="search"
@@ -44,44 +44,44 @@
           aria-label="Search"
         />
       </form>
-      <div class="collapse navbar-collapse">
-        <ul class="navbar-nav mr-auto ml-4">
-          <li class="nav-item active mr-3">
+      <div class="collapse navbar-collapse offset-2">
+        <ul class="navbar-nav mr-3 ml-0">
+          <li class="nav-item active mr-3 text-center">
             <a class="nav-link" href="#"
               ><i class="fas fa-home fa-lg" style="color: black">
                 <div class="menutext" style="color: black">Ana Sayfa</div></i
               >
             </a>
           </li>
-          <li class="nav-item active mr-4">
+          <li class="nav-item active mr-4 text-center">
             <a class="nav-link" href="#"
               ><i class="fas fa-user-friends fa-lg">
                 <div class="menutext">Ağım</div></i
               >
             </a>
           </li>
-          <li class="nav-item active mr-2">
+          <li class="nav-item active mr-2 text-center">
             <a class="nav-link" href="#"
               ><i class="fas fa-briefcase fa-lg">
                 <div class="menutext">İş İlanları</div></i
               >
             </a>
           </li>
-          <li class="nav-item active mr-1">
+          <li class="nav-item active mr-1 text-center">
             <a class="nav-link" href="#"
               ><i class="fas fa-comment-dots fa-lg">
                 <div class="menutext">Mesajlaşma</div></i
               >
             </a>
           </li>
-          <li class="nav-item active mr-1">
+          <li class="nav-item active mr-1 text-center">
             <a class="nav-link" href="#"
               ><i class="fas fa-bell fa-lg">
                 <div class="menutext">Bildirimler</div></i
               >
             </a>
           </li>
-          <li class="nav-item dropdown mt-1 mr-3 ml-3">
+          <li class="nav-item dropdown mt0 mr-3 ml-3 text-center">
             <a
               class="nav-link"
               href="#"
@@ -91,26 +91,26 @@
               aria-haspopup="true"
               aria-expanded="false"
             >
-              <img
-                src="https://media-exp1.licdn.com/dms/image/C4D03AQFpMjVJ_N2wRQ/profile-displayphoto-shrink_100_100/0/1582787654653?e=1616630400&v=beta&t=C1X2NxhcN0R0GmELl1Ew7BeOoyGbwJXCw8c7lHm6XuA"
+              <img class="rounded-circle mt-1"
+                src="assets/burak1.jpg"
                 style="
                   width: 25px;
                   height: 25px;
                 "
               />
               <div
-                class="menutext"
+                class="menutext mt-1"
               >
                 Ben
               </div>
             </a>
           </li>
-          <li class="nav-item active border-left">
+          <li class="nav-item active border-left text-center">
             <a class="nav-link ml-4 mr-2" href="#"
               ><i class="fas fa-th fa-lg"> <div class="menutext">İş</div></i>
             </a>
           </li>
-          <li class="nav-item active">
+          <li class="nav-item active text-center">
             <a class="nav-link" href="#"
               ><i class="fas fa-chalkboard fa-lg">
                 <div class="menutext">İş İlanı Yayınla</div></i
@@ -121,12 +121,12 @@
       </div>
     </nav>
 
-    <div>
-      <div class="row">
+    <div class="container">
+      <div class="row" style="padding-top: 80px;">
         <!-- sol panel -->
-        <div class="">
+        <div class="col-3">
           <!-- sol panel -->
-          <div class="card" style="width: 14rem">
+          <div class="card">
             <div
               class="card-header"
               style="
